@@ -1,0 +1,184 @@
+@media screen and (min-width: 290px) and (max-width:500px) {
+
+    
+    .h1 {
+
+        font-size: 1.3rem;
+        text-align: center;
+        color: white;
+        padding: 50px 0px 0px 0px;
+    
+    }
+    .h2 {
+
+        font-size: 1rem;
+        text-align: center;
+        color: white;
+        padding: 20px 0px 0px 0px;
+        
+    }
+    .h5 {
+    
+        font-size: 0.7rem;
+        text-align: center;
+        color: white;
+        padding: 20px 0px 0px 0px;
+        
+    }
+    
+    .h4 {
+    
+        font-size: 1rem;
+        text-align: center;
+        color: white;
+        padding: 30px 0px 0px 0px;
+    }
+
+    .acusticasFlex {
+
+        flex-wrap: wrap;
+        margin: 0px 10px 0px 10px;
+                
+    }
+
+    .cardsGuitarra{
+
+        margin-top:  20px;
+
+    }
+
+    .electricasFlex {
+
+        flex-wrap: wrap;
+        margin: 10px 10px 0px 10px;
+                
+    }
+
+    .mapFooter {
+
+        display: none;
+    }
+
+    .margenesRedes {
+
+        display: none;
+    }
+ 
+    
+}
+
+@media screen and (min-width: 501px) and (max-width:1000px) {
+
+    .h1 {
+
+        font-size: 1.7rem;
+        text-align: center;
+        color: white;
+        padding: 50px 0px 0px 0px;
+    
+    }
+    .h2 {
+
+        font-size: 1.3rem;
+        text-align: center;
+        color: white;
+        padding: 20px 0px 0px 0px;
+        
+    }
+    .h5 {
+    
+        font-size: 1.1rem;
+        text-align: center;
+        color: white;
+        padding: 20px 0px 0px 0px;
+        
+    }
+    
+    .h4 {
+    
+        font-size: 1.4rem;
+        text-align: center;
+        color: white;
+        padding: 30px 0px 0px 0px;
+    }
+
+    .acusticasFlex {
+
+        flex-wrap: wrap;
+        
+    }
+
+    .cardsGuitarra{
+
+        margin-top:  20px;
+    }     
+        
+}
+
+@media screen and (min-width: 1001px) and (max-width:2000px) {
+
+    .tamaño {
+
+        height: 80vh !important;
+        
+    } 
+
+    .h1 {
+
+        font-size: 2rem;
+        text-align: center;
+        color: white;
+        padding: 50px 0px 0px 0px;
+    
+    }
+    .h2 {
+
+        font-size: 1.6rem;
+        text-align: center;
+        color: white;
+        padding: 20px 0px 0px 0px;
+        
+    }
+    .h5 {
+    
+        font-size: 1rem;
+        text-align: center;
+        color: white;
+        padding: 20px 0px 0px 0px;
+        
+    }
+    
+    .h4 {
+    
+        font-size: 1.6rem;
+        text-align: center;
+        color: white;
+        padding: 30px 0px 0px 0px;
+    }
+
+    .cardsGuitarra:hover {
+
+
+        p {
+            color: darkred;
+        }
+        scale: 1.1;
+        transition: 1.2s;
+
+        
+    }
+
+    .cardsGuitarraElectrica:hover {
+
+
+        p {
+            color: darkred;
+        }
+        scale: 1.1;
+        transition: 1.2s;
+
+        
+    }
+      
+    
+}

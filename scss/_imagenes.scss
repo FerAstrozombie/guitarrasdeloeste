@@ -1,0 +1,13 @@
+.tamañoLogo {
+
+    width: 50px;
+    &:hover {
+        scale: 1.1;
+        transition: 1.5s;
+    }
+}
+
+.imagenesCards {
+
+    width: 300px;
+}

@@ -1,0 +1,213 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.tamañoLogo {
+  width: 50px; }
+  .tamañoLogo:hover {
+    scale: 1.1;
+    transition: 1.5s; }
+
+.imagenesCards {
+  width: 300px; }
+
+.cardsGuitarra {
+  background-color: white;
+  border-radius: 30px;
+  padding: 20px;
+  box-shadow: white 0px 3px 8px; }
+
+.acusticasFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  text-align: center; }
+
+.electricasFlex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center; }
+
+.cardsGuitarraElectrica {
+  background-color: white;
+  border-radius: 30px;
+  padding: 20px;
+  box-shadow: white 0px 3px 8px;
+  margin-top: 30px; }
+
+.parrafoFooter {
+  color: white;
+  text-align: center; }
+
+a {
+  text-decoration: none;
+  color: white; }
+  a:hover {
+    color: darkred; }
+
+.mapFooter {
+  text-align: center;
+  margin-top: 35px; }
+
+.flexFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 100px; }
+
+.margenes {
+  margin: 20px; }
+
+.tamañoRedes {
+  width: 40px;
+  padding: 5px; }
+  .tamañoRedes:hover {
+    scale: 1.1; }
+
+.flexRedes {
+  display: flex;
+  justify-content: center; }
+
+.margenesRedes {
+  margin-top: 30px; }
+
+@media screen and (min-width: 290px) and (max-width: 500px) {
+  .h1 {
+    font-size: 1.3rem;
+    text-align: center;
+    color: white;
+    padding: 50px 0px 0px 0px; }
+  .h2 {
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    padding: 20px 0px 0px 0px; }
+  .h5 {
+    font-size: 0.7rem;
+    text-align: center;
+    color: white;
+    padding: 20px 0px 0px 0px; }
+  .h4 {
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    padding: 30px 0px 0px 0px; }
+  .acusticasFlex {
+    flex-wrap: wrap;
+    margin: 0px 10px 0px 10px; }
+  .cardsGuitarra {
+    margin-top: 20px; }
+  .electricasFlex {
+    flex-wrap: wrap;
+    margin: 10px 10px 0px 10px; }
+  .mapFooter {
+    display: none; }
+  .margenesRedes {
+    display: none; } }
+
+@media screen and (min-width: 501px) and (max-width: 1000px) {
+  .h1 {
+    font-size: 1.7rem;
+    text-align: center;
+    color: white;
+    padding: 50px 0px 0px 0px; }
+  .h2 {
+    font-size: 1.3rem;
+    text-align: center;
+    color: white;
+    padding: 20px 0px 0px 0px; }
+  .h5 {
+    font-size: 1.1rem;
+    text-align: center;
+    color: white;
+    padding: 20px 0px 0px 0px; }
+  .h4 {
+    font-size: 1.4rem;
+    text-align: center;
+    color: white;
+    padding: 30px 0px 0px 0px; }
+  .acusticasFlex {
+    flex-wrap: wrap; }
+  .cardsGuitarra {
+    margin-top: 20px; } }
+
+@media screen and (min-width: 1001px) and (max-width: 2000px) {
+  .tamaño {
+    height: 80vh !important; }
+  .h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    padding: 50px 0px 0px 0px; }
+  .h2 {
+    font-size: 1.6rem;
+    text-align: center;
+    color: white;
+    padding: 20px 0px 0px 0px; }
+  .h5 {
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    padding: 20px 0px 0px 0px; }
+  .h4 {
+    font-size: 1.6rem;
+    text-align: center;
+    color: white;
+    padding: 30px 0px 0px 0px; }
+  .cardsGuitarra:hover {
+    scale: 1.1;
+    transition: 1.2s; }
+    .cardsGuitarra:hover p {
+      color: darkred; }
+  .cardsGuitarraElectrica:hover {
+    scale: 1.1;
+    transition: 1.2s; }
+    .cardsGuitarraElectrica:hover p {
+      color: darkred; } }
+
+#espaciado {
+  margin: 0px 20px 0px 20px;
+  text-align: center;
+  color: white; }
+  #espaciado:hover {
+    color: darkred; }
+
+.colorNavbar {
+  background-color: black; }
+
+#hamburguesa {
+  background-color: white; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background-color: black;
+  font-family: 'Montserrat', sans-serif; }
+
+h1 {
+  font-size: 1.8rem;
+  text-align: center;
+  color: white;
+  padding: 50px 0px 0px 0px; }
+
+h2 {
+  text-align: center;
+  color: white;
+  padding: 20px 0px 0px 0px; }
+
+h5 {
+  text-align: center;
+  color: white;
+  padding: 20px 0px 0px 0px;
+  font-size: 1rem; }
+
+h4 {
+  text-align: center;
+  color: white;
+  padding: 30px 0px 0px 0px; }
+
+.parrafoTienda {
+  color: white; }

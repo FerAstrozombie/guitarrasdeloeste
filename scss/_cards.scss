@@ -1,0 +1,40 @@
+.cardsGuitarra {
+
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: rgba(255, 255, 255, 255) 0px 3px 8px;
+        
+}
+
+    
+
+.acusticasFlex {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;   
+    padding-top: 50px;
+    text-align: center;
+        
+}
+
+.electricasFlex {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    text-align: center;     
+        
+}
+
+.cardsGuitarraElectrica {
+
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: rgba(255, 255, 255, 255) 0px 3px 8px;
+    margin-top: 30px
+
+}
